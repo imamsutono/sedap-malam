@@ -160,6 +160,7 @@ export const SOSMED = [
   { label: "Instagram", href: "https://instagram.com/" },
   { label: "TikTok", href: "https://tiktok.com/" },
   { label: "YouTube", href: "https://youtube.com/" },
+  { label: "Threads", href: "https://threads.net/" },
 ];
 
 export const KONTAK = {
