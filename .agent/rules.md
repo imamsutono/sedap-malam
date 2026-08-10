@@ -1,0 +1,1 @@
+Selalu gunakan spesifikasi dan arsitektur dari file `docs/PRD.md` sebagai sumber kebenaran utama saat menulis kode atau membuat halaman web.
