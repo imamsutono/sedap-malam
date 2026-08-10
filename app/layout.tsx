@@ -27,7 +27,7 @@ export const metadata: Metadata = {
       "Ekosistem kreatif digital Kabupaten Pasuruan. Satu harum, beragam karya: musik, seni pertunjukan, literasi, kriya, kuliner, dan lainnya.",
     images: [
       {
-        url: "/sedap-malam.webp",
+        url: "/thumbnail.webp",
         alt: "Sedap Malam Pasuruan",
       },
     ],
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     title: "Sedap Malam Pasuruan — Inspirasi Tanpa Batas Ekonomi Kreatif",
     description:
       "Ekosistem kreatif digital Kabupaten Pasuruan. Satu harum, beragam karya: musik, seni pertunjukan, literasi, kriya, kuliner, dan lainnya.",
-    images: ["/sedap-malam.webp"],
+    images: ["/thumbnail.webp"],
   },
 };
 
