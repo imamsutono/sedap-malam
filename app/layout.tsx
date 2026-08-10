@@ -15,9 +15,30 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL || "https://sedapmalam.pasuruankab.go.id"
+  ),
   title: "Sedap Malam Pasuruan — Inspirasi Tanpa Batas Ekonomi Kreatif",
   description:
     "Ekosistem kreatif digital Kabupaten Pasuruan. Satu harum, beragam karya: musik, seni pertunjukan, literasi, kriya, kuliner, dan lainnya.",
+  openGraph: {
+    title: "Sedap Malam Pasuruan — Inspirasi Tanpa Batas Ekonomi Kreatif",
+    description:
+      "Ekosistem kreatif digital Kabupaten Pasuruan. Satu harum, beragam karya: musik, seni pertunjukan, literasi, kriya, kuliner, dan lainnya.",
+    images: [
+      {
+        url: "/sedap-malam.webp",
+        alt: "Sedap Malam Pasuruan",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sedap Malam Pasuruan — Inspirasi Tanpa Batas Ekonomi Kreatif",
+    description:
+      "Ekosistem kreatif digital Kabupaten Pasuruan. Satu harum, beragam karya: musik, seni pertunjukan, literasi, kriya, kuliner, dan lainnya.",
+    images: ["/sedap-malam.webp"],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

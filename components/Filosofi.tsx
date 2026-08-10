@@ -12,7 +12,7 @@ const POIN = [
   },
   {
     judul: "Mekar di Malam",
-    isi: "Seperti bunganya, ekosistem ini memberi ruang tenang untuk berkembang utuh. Mekarnya menginspirasi dunia.",
+    isi: "Seperti bunganya, ekosistem ini memberi ruang tenang untuk berkembang utuh. Mekarnya menginspirasi karya.",
   },
 ];
 
