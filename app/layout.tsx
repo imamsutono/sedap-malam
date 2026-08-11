@@ -22,13 +22,20 @@ export const metadata: Metadata = {
   description:
     "Ekosistem kreatif digital Kabupaten Pasuruan. Satu harum, beragam karya: musik, seni pertunjukan, literasi, kriya, kuliner, dan lainnya.",
   openGraph: {
+    type: "website",
+    locale: "id_ID",
+    url: "/",
     title: "Sedap Malam Pasuruan — Inspirasi Tanpa Batas Ekonomi Kreatif",
     description:
       "Ekosistem kreatif digital Kabupaten Pasuruan. Satu harum, beragam karya: musik, seni pertunjukan, literasi, kriya, kuliner, dan lainnya.",
+    siteName: "Sedap Malam Pasuruan",
     images: [
       {
         url: "/thumbnail.png",
+        width: 1200,
+        height: 630,
         alt: "Sedap Malam Pasuruan",
+        type: "image/png",
       },
     ],
   },
@@ -37,7 +44,14 @@ export const metadata: Metadata = {
     title: "Sedap Malam Pasuruan — Inspirasi Tanpa Batas Ekonomi Kreatif",
     description:
       "Ekosistem kreatif digital Kabupaten Pasuruan. Satu harum, beragam karya: musik, seni pertunjukan, literasi, kriya, kuliner, dan lainnya.",
-    images: ["/thumbnail.png"],
+    images: [
+      {
+        url: "/thumbnail.png",
+        width: 1200,
+        height: 630,
+        alt: "Sedap Malam Pasuruan",
+      },
+    ],
   },
 };
 
