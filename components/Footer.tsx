@@ -126,7 +126,7 @@ export function Footer() {
         <div className="flex flex-col gap-2 border-t border-white/10 py-6 text-xs sm:flex-row sm:items-center sm:justify-between">
           <p>© 2026 {KONTAK.komite}.</p>
           <p className="text-cream/45">
-            Dibangun kolektif oleh subsektor Aplikasi &amp; Pengembang Permainan.
+            Dibangun oleh subsektor Aplikasi.
           </p>
         </div>
       </div>
